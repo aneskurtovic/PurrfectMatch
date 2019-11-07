@@ -1,0 +1,75 @@
+body {
+    background: url(images/background);
+    background-size: cover;
+    background-position: center; 
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: #DB7093;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+
+.content{
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+    background-color:rgba(255,255,255,0.4);
+    border:none;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+a#logo.navbar-brand, div#navbar ul.nav.navbar-nav li a{ 
+    color: #DB7093 ;
+}
+nav.navbar.navbar-default.navbar-fixed-top a.navbar-brand{
+    font-size:2rem;
+    margin-left: 15px;
+}
+
+div#navbar ul.nav.navbar-nav li a:hover{
+    background-color:rgba(255,255,255,0.4) ;
+}
+
+div.content button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:#DB7093;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    font-family: "Lato";
+}
+
+div.content button:hover {
+    background: lightslategray;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
