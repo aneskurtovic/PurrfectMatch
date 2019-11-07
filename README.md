@@ -1,6 +1,8 @@
 # PurrfectMatch
 Purrfect Match - Landing page izrađen pomoću Bootstrapa.
 
+![Preview sajta](https://i.imgur.com/jtW8Nqc.jpg)
+
 Landing page izrađen tokom kursa "The Web Developer Bootcamp" od Colt Steela kojeg možete pronaći na Udemyu uz moje sitne vizuelne modifikacije.
 
 https://www.udemy.com/course/the-web-developer-bootcamp/
